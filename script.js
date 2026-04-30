@@ -58,6 +58,12 @@ function stopWatch() {
             minute = 0;
         }
 
+        let hrString = hour;
+        let minString = minute;
+        let secString = seconds;
+        let countString = count;
+
+
 
         if(hour < 10){
             hrString = "0" + hrString;
